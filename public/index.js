@@ -13,7 +13,7 @@ var images = ["dolphins-1869337_1920.jpg",
 var trigger = false;
 
 let current = Math.floor(Math.random() * images.length);
-     $(".images").attr("src", "/images" + images[current]);
+     $(".images").attr("src", "/public/images" + images[current]);
 
 
        var interval = setInterval(() => {
