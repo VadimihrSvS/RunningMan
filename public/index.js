@@ -13,7 +13,7 @@ var images = ["dolphins-1869337_1920.jpg",
 var trigger = false;
 
 let current = Math.floor(Math.random() * images.length);
-     $(".images").attr("src", "/public/images" + images[current]);
+     $(".images").attr("src", "/public/images/" + images[current]);
 
 
        var interval = setInterval(() => {
@@ -24,7 +24,7 @@ let current = Math.floor(Math.random() * images.length);
              }
 
              current = next;
-             $(".images").attr("src", "/public/images" + images[current]);
+             $(".images").attr("src", "/public/images/" + images[current]);
            }, 200);
 
 
@@ -43,7 +43,7 @@ let current = Math.floor(Math.random() * images.length);
          }
 
          current = next;
-         $(".images").attr("src", "/public/images" + images[current]);
+         $(".images").attr("src", "/public/images/" + images[current]);
        }, 200);
        trigger = false;
  }
