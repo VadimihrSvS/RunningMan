@@ -1,0 +1,19 @@
+{
+  "name": "runningman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "yarn",
+    "environment":	"node",
+    "start": "nodemon server.js"
+  },
+  "author": "VadimirSvS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jquery": "^3.6.3",
+    "nodemon": "^2.0.20",
+    "serverless-http": "^3.1.1"
+  }
+}
