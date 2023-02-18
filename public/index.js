@@ -24,7 +24,7 @@ let current = Math.floor(Math.random() * images.length);
              }
 
              current = next;
-             $(".images").attr("src", "images/" + images[current]);
+             $(".images").attr("src", "/public/images" + images[current]);
            }, 200);
 
 
@@ -43,7 +43,7 @@ let current = Math.floor(Math.random() * images.length);
          }
 
          current = next;
-         $(".images").attr("src", "images/" + images[current]);
+         $(".images").attr("src", "/public/images" + images[current]);
        }, 200);
        trigger = false;
  }
